@@ -6,6 +6,7 @@ janela = Tk()
 janela.title("Calculadora")
 janela.geometry("277x318")
 janela.config(bg = branco)
+janela.resizable(width= False, height=False)
 
 frame_tela = Frame(janela, width = 277, height = 60, bg = rosa_2)
 frame_tela.grid(row = 0, column = 0)
